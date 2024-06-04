@@ -1,0 +1,44 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Ingreso de usuarios{% endblock title %}
+
+{% block main-content %}
+<!-- Ingreso de usuarios -->
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-18"> <!-- Ajustado a 8 columnas -->
+            <div class="card shadow-lg p-4">
+                <h3 class="text-center mb-4">Ingreso</h3>
+                <hr>
+                <form action="" method="post" novalidate class="p-4">
+                    {% csrf_token %}
+                    {% for fm in form %}
+                        <div class="mb-3">
+                            {{ fm.label_tag }} {{ fm }} 
+                            <small class="text-danger">{{ fm.errors|striptags }}</small>
+                        </div>
+                    {% endfor %}
+                    <div class="d-grid">
+                        <input type="submit" value="Ingresar" class="btn btn-primary btn-block">
+                    </div>
+                    <div class="text-center text-black fw-bold mt-3">
+                        <small>¿Usuario nuevo? <a href="{% url 'customerregistration' %}" class="text-primary">Crear Una cuenta</a> </small>
+                    </div>
+                    {% if form.non_field_errors %}
+                        {% for error in form.non_field_errors %}
+                            <p class="alert alert-danger my-3">{{ error }}</p>
+                        {% endfor %}
+                    {% endif %}
+                    {% if messages %}
+                        {% for msg in messages %}
+                            <div class="alert alert-{{ msg.tags }}" role="alert">
+                                {{ msg }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main-content %}

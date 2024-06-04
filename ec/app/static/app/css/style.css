@@ -1,0 +1,249 @@
+.goodnessseccont img {
+    width: 100%;
+}
+
+/* Fondo de colores para las imágenes */
+.soledad {
+    background-color: #fff; 
+    background-image: linear-gradient(#fff7ef, #fff);
+    background-image: -webkit-linear-gradient(#fff7ef, #fff);
+    background-image: -moz-linear-gradient(#fff7ef, #fff);
+    background-image: -ms-linear-gradient(#fff7ef, #fff);
+    background-image: -o-linear-gradient(#fff7ef, #fff);
+    padding: 50px 40px;
+    border: 1px solid #efe8e1;
+    padding-bottom: 20px;
+}
+
+.cronica {
+    background-color: #fff;
+    background-image: linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+    background-image: -webkit-linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+    background-image: -moz-linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+    background-image: -ms-linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+    background-image: -o-linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+}
+
+.doce {
+    background-color: #fff;
+    background-image: linear-gradient(rgba(38, 84, 208, 0.1), #fff);
+    background-image: -webkit-linear-gradient(rgba(38, 84, 208, 0.1), #fff);
+    background-image: -moz-linear-gradient(rgba(38, 84, 208, 0.1), #fff);
+    background-image: -ms-linear-gradient(rgba(38, 84, 208, 0.1), #fff);
+    background-image: -o-linear-gradient(rgba(38, 84, 208, 0.1), #fff);
+}
+
+.slider-image {
+    height: 150px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover;
+}
+/* Estilo para el encabezado de contacto */
+.contact-header {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #ffffff; /* Color del texto blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.contact-header h2 {
+    margin: 0; /* Sin margen */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+}
+
+/* Estilo para la información de contacto */
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info .icon-container {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+    color: #333; /* Cambia el color del texto según tus preferencias */
+    font-family: Arial, Helvetica, sans-serif; /* Cambia la fuente según tus preferencias */
+}
+
+.contact-info i {
+    transition: transform 0.2s;
+}
+
+.contact-info i:hover {
+    transform: scale(1.1);
+}
+
+
+
+.btn.btn-primary {
+    opacity: 1 !important; /* Asegura que el botón siempre sea visible */
+    visibility: visible !important; /* Asegura que el botón siempre sea visible */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para la sección "Sobre Nosotros" */
+
+
+
+.about-us-section {
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%); /* Degradado de fondo sutil */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 30px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: justify; /* Justifica el texto para un acabado limpio */
+    color: #333333; /* Color del texto */
+}
+
+/* Estilo para la sección "Nuestra Misión" */
+.mission-section {
+    background: linear-gradient(135deg, #f0f4c3 0%, #e0f7fa 100%); /* Degradado de fondo sutil diferente */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 30px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: justify; /* Justifica el texto para un acabado limpio */
+    color: #333333; /* Color del texto */
+}
+
+/* Estilo para los párrafos */
+.about-us-section p,
+.mission-section p {
+    margin-bottom: 20px; /* Espaciado inferior */
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-family: 'Arial', sans-serif; /* Fuente legible */
+}
+
+/* Encabezado principal */
+h2.text-center.mb-4 {
+    color: #333333; /* Color del encabezado */
+    font-family: 'Arial', sans-serif; /* Fuente del encabezado */
+}
+
+/* Encabezado de la misión */
+h3.text-center.mb-4 {
+    color: #333333; /* Color del encabezado */
+    font-family: 'Arial', sans-serif; /* Fuente del encabezado */
+}
+
+
+
+
+
+
+
+
+
+/* Registro  */
+
+
+/* Estilo para el contenedor principal del formulario */
+.container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para la tarjeta que contiene el formulario */
+.card {
+    background: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 30px; /* Espaciado interno */
+}
+
+/* Estilo para el encabezado del formulario */
+.card h3 {
+    color: #333333; /* Color del texto del encabezado */
+    font-family: 'Arial', sans-serif; /* Fuente del encabezado */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-align: center; /* Alineación centrada */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+}
+
+/* Estilo para las etiquetas y los campos del formulario */
+.card form .mb-3 {
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.card form label {
+    font-weight: bold; /* Texto en negrita */
+    color: #555555; /* Color del texto */
+}
+
+.card form input,
+.card form select,
+.card form textarea {
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ced4da; /* Borde del campo */
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+    margin-top: 5px; /* Espaciado superior */
+}
+
+/* Estilo para el botón de registro */
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón */
+    border-color: #007bff; /* Color del borde del botón */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+/* Estilo para el texto de enlace */
+.card a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.card a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Estilo para los mensajes de error y alertas */
+.text-danger {
+    color: #dc3545; /* Color del texto de error */
+}
+
+.alert {
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.alert-danger {
+    background-color: #f8d7da; /* Color de fondo del mensaje de error */
+    color: #721c24; /* Color del texto del mensaje de error */
+}
+
+/* Estilo para las alertas basadas en el tipo de mensaje */
+.alert-info,
+.alert-warning,
+.alert-success {
+    margin-top: 20px; /* Espaciado superior */
+}
+
+
+
+

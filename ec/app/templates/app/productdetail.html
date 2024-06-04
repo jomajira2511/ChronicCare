@@ -1,0 +1,28 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Category{% endblock title %}
+<!-- estilo pagina de libros por categoria-->
+{% block main-content %} 
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-5 mt-5"><!-- inserta imagen -->  
+            <img src="{{ product.imagen_producto.url }}" class="image col-xs-6 col-sm-12 col-lg-12 mt-3 text-sm-center w-100 h-75" alt="">
+        </div>       
+        <div class="col-lg-5 productdetail">
+            <h1 style="font-family: Georgia; font-size: 50px;">{{ product.titulo }}</h1> <!-- inserta el titulo del producto -->
+            <br><br> <h4> Descripción </h4>  <!--inserta la descripcion del producto  -->
+            <ul class="fs-5" style="font-family: Rajdhani;">
+                <li>{{ product.descripcion }}</li>
+                <b> Autor :  </b> 
+                <l2>{{ product.autor }}</l2>
+                <br> <b> Fecha de publicación :  </b> 
+                <l2>{{ product.fecha_publi }}</l2>
+                <div class="button row flex" style= "font-family: Rajdhani">
+                    <a href="{{ product.fuente }}" target="_blank" class="btn btn-danger pm-1 m-1 btn-lg text-decoration-none text-white ">Fuente</a>
+                    
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock main-content %}

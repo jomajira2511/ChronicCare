@@ -1,0 +1,48 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Contáctanos{% endblock title %}
+
+{% block banner_slider %} <!-- banner para poner publicidad o solo poner un fondo-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'app/images/banner/b1.jpg' %}" class="d-block w-100 slider-image" alt="banner image">
+        </div>
+    </div>
+</div>
+{% endblock banner_slider %}
+
+{% block main-content %}
+<div class="container mt-5">
+    <!-- Cuadro de Contacto -->
+    
+    <!-- Información de Contacto -->
+    <div class="row justify-content-center">
+        <div class="col-md-3 text-center contact-info">
+            <div class="icon-container">
+                <i class="fas fa-building fa-3x"></i>
+            </div>
+            <p class="fs-5 mt-2"><b>Nombre de la Empresa:</b> Chronic Care</p>
+        </div>
+        <div class="col-md-3 text-center contact-info">
+            <div class="icon-container">
+                <i class="fas fa-phone fa-3x"></i>
+            </div>
+            <p class="fs-5 mt-2"><b>Teléfono de contacto:</b> 3205636980</p>
+        </div>
+        <div class="col-md-3 text-center contact-info">
+            <div class="icon-container">
+                <i class="fas fa-envelope fa-3x"></i>
+            </div>
+            <p class="fs-5 mt-2"><b>Correo Electrónico:</b> jhon.jimenez1@utp.edu.co</p>
+        </div>
+        <div class="col-md-3 text-center contact-info">
+            <div class="icon-container">
+                <i class="fas fa-map-marker-alt fa-3x"></i>
+            </div>
+            <p class="fs-5 mt-2"><b>Dirección:</b> Pereira, Risaralda</p>
+        </div>
+    </div>
+</div>
+<br><br>
+{% endblock main-content %}
